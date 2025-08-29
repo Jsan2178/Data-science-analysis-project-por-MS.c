@@ -1,3 +1,5 @@
+# Data-science-analysis-project-por-MS.c
+A brief abstract of my thesis project in regression Neural Network application to particle physics
 This project aims to analyze and predict a physical phenomenon called muon g-2 based on a new theory knowed as Supersimmetry as an extension of the Standard Model of particles, which is part of my thesis, any information about it please contact me to santillanjordan9@gmail.com., so I can provide my thesis to you or doi articles related to it, because my thesis isn't published yet.
 First to know:
 1. The main archive is "Thesis_code_main.ipynb", which is built on jupyter lab but can be implemented in another python kernel obviously just the scripts, not the notes of the notebook.
