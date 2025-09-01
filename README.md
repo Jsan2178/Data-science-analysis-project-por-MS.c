@@ -4,6 +4,6 @@ This project aims to analyze and predict a physical phenomenon called muon g-2 b
 First to know:
 1. The main archive is "Thesis_code_main.ipynb", which is built on jupyter lab but can be implemented in another python kernel obviously just the scripts, not the notes of the notebook.
 2. This project uses several double truncated  probability distributions, you can call it in the main project with the file "dist_trunc.py".
-3. For rerun the main analytical code that generates the date you can call the file "a_mu_susy.py" so you just focus on the Neural Network.
+3. For rerun the main analytical code that generates the data you can call the file "a_mu_susy.py" so you just focus on the Neural Network.
 4. Pay attention to the details concerning to the distributions in the a_mu_susy file, this are mentioned in the main file.
 
