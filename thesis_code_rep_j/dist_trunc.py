@@ -46,7 +46,11 @@ def gamma_trunc(k, lo, hi, n, p=0.99): #n number of samples
     #Parameters de la Gamma:
       # k-> shape  (= 1.14)
       #alpha -> scale  
+<<<<<<< HEAD
       # truncated limits a, b
+=======
+      # truncated limits lo, hi
+>>>>>>> 25040d7 (Thesis code updated)
     if k <= 0:
         raise ValueError("k must be > 0.")
     if not (lo < hi):
