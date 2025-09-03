@@ -7,3 +7,13 @@ First to know:
 3. For rerun the main analytical code that generates the data you can call the file "a_mu_susy.py" so you just focus on the Neural Network.
 4. Pay attention to the details concerning to the distributions in the a_mu_susy file, this are mentioned in the main file. But if you want to use another distribution in a_mu_susy just call the others a_mu_susy files, which have several distributions mentioned in the file name.
 
+---
+
+## Selected Data Science Projects
+
+- **[Telco Customer Churn (ROI-aware)](./Jobs%20projects/Project1/)**  
+  MLPClassifier pipeline with business-oriented thresholding (EV = p·r·CLV − C).  
+  Test set: ROC-AUC ≈ **0.85**, PR-AUC ≈ **0.64** (base ≈ 0.26).  
+  At t=0.45 → Precision ≈ **0.48**, Recall ≈ **0.87**; ROI cutoff t*≈0.20 → Precision ≈ **0.39**, Recall ≈ **0.97**.
+
+*Contact:* santillanjordan9@gmail.com · LinkedIn: https://www.linkedin.com/in/<tu-handle>
