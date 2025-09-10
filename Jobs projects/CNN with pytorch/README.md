@@ -60,4 +60,14 @@
 - Saved checkpoints and weights:
   - **Save:** `torch.save(model.state_dict(), "cnn.pth")`
   - **Load:** instantiate the same `ConvNet()`, then:
-    ```pyth
+    ```python
+    model.load_state_dict(torch.load("cnn.pth", map_location=device))
+    model.eval()
+    ```
+
+---
+
+## Notes
+
+- Results are reproducible with the provided seed on the same environment.
+- The notebook includes a quick **Load & Inference** section to run predictions without retraining.
