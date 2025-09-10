@@ -16,7 +16,7 @@ First to know:
   Test set: ROC-AUC ≈ **0.85**, PR-AUC ≈ **0.64** (base ≈ 0.26).  
   At t=0.45 → Precision ≈ **0.48**, Recall ≈ **0.87**; ROI cutoff t*≈0.20 → Precision ≈ **0.39**, Recall ≈ **0.97**.
 
-- [Image Classification — CIFAR-10 (PyTorch)](./Jobs%20projects/CNNwithpytorch)
+- [Image Classification — CIFAR-10 (PyTorch)](./Jobs projects/CNN with pytorch)
   CNN from scratch (2 conv blocks + dense head) with full training/evaluation pipeline.
   Test set: **Accuracy ≈ 63.6%** (baseline **57.8%**, **+5.8 pp**).  
   Eval: per-class accuracy, confusion matrix, Recall, Precision, f1score; reproducible runs (seed=42) and saved `state_dict` for quick inference.  
