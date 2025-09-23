@@ -1,0 +1,10 @@
+## Requirements
+
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+sentence-transformers>=2.4
+transformers>=4.40
+torch>=2.1
+tqdm>=4.66
+ipywidgets>=8.0
