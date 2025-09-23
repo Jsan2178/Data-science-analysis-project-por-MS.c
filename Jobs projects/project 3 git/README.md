@@ -7,7 +7,7 @@ Includes **retrieval metrics** (Recall@k / MRR@k) and a reproducible demo notebo
 
 ## Project Structure
 
----
+
 
 ```markdown
 Project3/
@@ -23,7 +23,7 @@ Project3/
 ├─ artifacts/ # generated; do not commit
 ├─ requirements.txt
 └─ README.md
----
+
 
 ```
 ## Data
@@ -49,7 +49,7 @@ transformers>=4.40
 torch>=2.1
 tqdm>=4.66
 ipywidgets>=8.0
----
+
 
 ```
 ## How to Run
@@ -58,12 +58,14 @@ ipywidgets>=8.0
 ```markdown
 pip install -r requirements.txt
 jupyter notebook Notebooks/01_demo_qa_aspects.ipynb
----
+
 
 ```
 
 ## Quickstart
+ 
 
+```markdown
 Project3/
 ├─ Notebooks/01_demo_qa_aspects.ipynb
 ├─ src/{dataio.py, embed_index.py, retriever.py, qa.py}
@@ -72,6 +74,8 @@ Project3/
 ├─ requirements.txt
 └─ README.md
 
+
+```
 ### Run
 pip install -r requirements.txt
 jupyter notebook Notebooks/01_demo_qa_aspects.ipynb
