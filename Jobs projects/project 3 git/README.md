@@ -2,7 +2,7 @@
 
 A **RAG-lite** assistant over Amazon reviews: performs **semantic retrieval by product** (Sentence-Transformers embeddings), answers a **question with evidence** (top-k review chunks), and shows an **aspect summary** (price, battery, quality, durability, shipping).  
 Includes **retrieval metrics** (Recall@k / MRR@k) and a reproducible demo notebook.
-You can review the performance on /notebooks/01_demo_qa_aspects.ipynb here.
+You can review the performance on /Notebooks/01_demo_qa_aspects.ipynb here.
 
 ---
 
