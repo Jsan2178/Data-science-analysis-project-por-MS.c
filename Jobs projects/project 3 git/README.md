@@ -39,6 +39,8 @@ The notebook auto-detects:
 ## Requirements
 
 ---
+
+```markdown
 pandas>=1.5
 numpy>=1.23
 scikit-learn>=1.2
@@ -47,7 +49,9 @@ transformers>=4.40
 torch>=2.1
 tqdm>=4.66
 ipywidgets>=8.0
+---
 
+```
 ## How to Run
 
 pip install -r requirements.txt
