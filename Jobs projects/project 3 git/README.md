@@ -77,17 +77,12 @@ Project3/
 
 ```
 ### Run
+```
 pip install -r requirements.txt
 jupyter notebook Notebooks/01_demo_qa_aspects.ipynb
 
-
-# Use the CSV in ./data/1429_1.csv 
-# Or place the full dataset as ./data/amazon_full.csv (auto-detected)
-jupyter notebook Notebooks/01_demo_qa_aspects.ipynb
-
-
+```
 ## Quickstart
----
 
 ```markdown
 Project3/
@@ -97,8 +92,6 @@ Project3/
 ├─ artifacts/ # generated; do not commit
 ├─ requirements.txt
 └─ README.md
----
-
 ```
 ### Place data
 
@@ -106,7 +99,9 @@ Use the CSV included in ./data/1429_1.csv or
 
 Download the full dataset and save it as ./data/1429_1.csv.
 The notebook auto-detects amazon_full.csv; if not present, it falls back to the small file.
+```
 
+```
 ### Open the notebook
-
+```
 jupyter notebook Notebooks/01_demo_qa_aspects.ipynb
