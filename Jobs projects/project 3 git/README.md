@@ -21,16 +21,19 @@ Project3/
 ├─ requirements.txt
 └─ README.md
 
-## How to Run
+## Data
 
-```bash
-pip install -r requirements.txt
+1) Create a `data/` folder at the repo root.
+2) Download the dataset from this link and place it in `./data/`:
+   - **Amazon reviews (full)**: <https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products>
+   
 
----
+The notebook auto-detects:
+- If `data/amazon_full.csv` exists, it uses that.
 
 ## Requirements
 
-```txt
+---
 pandas>=1.5
 numpy>=1.23
 scikit-learn>=1.2
@@ -42,8 +45,29 @@ ipywidgets>=8.0
 
 ## How to Run
 
-```bash
 pip install -r requirements.txt
+jupyter notebook Notebooks/01_demo_qa_aspects.ipynb
+
+
+## Quickstart
+
+Project3/
+├─ Notebooks/01_demo_qa_aspects.ipynb
+├─ src/{dataio.py, embed_index.py, retriever.py, qa.py}
+├─ data/1429_1.csv  # or sample_reviews.csv (or amazon_full.csv)
+├─ artifacts/       # generated; do not commit
+├─ requirements.txt
+└─ README.md
+
+### Run
+pip install -r requirements.txt
+jupyter notebook Notebooks/01_demo_qa_aspects.ipynb
+
+
+### Run
+pip install -r requirements.txt
+jupyter notebook Notebooks/01_demo_qa_aspects.ipynb
+
 
 # Use the CSV in ./data/1429_1.csv (or sample_reviews.csv)
 # Or place the full dataset as ./data/amazon_full.csv (auto-detected)
