@@ -7,6 +7,9 @@ Includes **retrieval metrics** (Recall@k / MRR@k) and a reproducible demo notebo
 
 ## Project Structure
 
+---
+
+```markdown
 Project3/
 ├─ Notebooks/
 │ └─ 01_demo_qa_aspects.ipynb
@@ -20,7 +23,9 @@ Project3/
 ├─ artifacts/ # generated; do not commit
 ├─ requirements.txt
 └─ README.md
+---
 
+```
 ## Data
 
 1) Create a `data/` folder at the repo root.
