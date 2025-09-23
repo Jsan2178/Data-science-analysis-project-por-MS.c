@@ -2,6 +2,7 @@
 
 A **RAG-lite** assistant over Amazon reviews: performs **semantic retrieval by product** (Sentence-Transformers embeddings), answers a **question with evidence** (top-k review chunks), and shows an **aspect summary** (price, battery, quality, durability, shipping).  
 Includes **retrieval metrics** (Recall@k / MRR@k) and a reproducible demo notebook.
+You can review the performance on /notebooks/01_demo_qa_aspects.ipynb here.
 
 ---
 
@@ -61,29 +62,8 @@ jupyter notebook Notebooks/01_demo_qa_aspects.ipynb
 
 
 ```
-
 ## Quickstart
- 
-
-```markdown
-Project3/
-├─ Notebooks/01_demo_qa_aspects.ipynb
-├─ src/{dataio.py, embed_index.py, retriever.py, qa.py}
-├─ data/1429_1.csv  # or sample_reviews.csv (or amazon_full.csv)
-├─ artifacts/       # generated; do not commit
-├─ requirements.txt
-└─ README.md
-
-
 ```
-### Run
-```
-pip install -r requirements.txt
-jupyter notebook Notebooks/01_demo_qa_aspects.ipynb
-
-```
-## Quickstart
-
 ```markdown
 Project3/
 ├─ Notebooks/01_demo_qa_aspects.ipynb
