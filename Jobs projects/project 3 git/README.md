@@ -53,10 +53,14 @@ ipywidgets>=8.0
 
 ```
 ## How to Run
+---
 
+```markdown
 pip install -r requirements.txt
 jupyter notebook Notebooks/01_demo_qa_aspects.ipynb
+---
 
+```
 
 ## Quickstart
 
