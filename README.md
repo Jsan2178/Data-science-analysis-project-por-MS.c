@@ -22,4 +22,9 @@ First to know:
   Eval: per-class accuracy, confusion matrix, Recall, Precision, f1score; reproducible runs (seed=42) and saved `state_dict` for quick inference.  
   Tech: PyTorch/torchvision, scikit-learn, Matplotlib.  (14 epochs, Adam lr=5e-4, batch=64)
 
+  - [Amazon Reviews — RAG-lite Q&A + Aspect Sentiment](./Jobs%20projects/project%3%git/)**  
+  Semantic search over Amazon reviews with MiniLM embeddings; Q&A answers grounded in top-k evidence and aspect summary (price, battery, quality, durability).  
+  *Metrics:* Recall@5 **0.84**, MRR@5 **0.61** (same-product proxy, exclude-self). *Tech:* Python, sentence-transformers, scikit-learn, pandas.
+
+
 *Contact:* santillanjordan9@gmail.com · LinkedIn: https://www.linkedin.com/in/<tu-handle>
