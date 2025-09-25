@@ -1,13 +1,13 @@
 # Customer Segmentation — K-Means & Hierarchical (Ward)
 
-**Summary:** Mini demo segmenting `Mall_Customers.csv` We compare cluster counts using the K-Means elbow curve (plotting inertia vs. k) and a Ward dendrogram, selecting k via the largest vertical gap.
+**Summary:** Mini demo segmenting `Mall_Customers.csv`. We compare cluster counts using the K-Means elbow curve (plotting inertia vs. k) and a Ward dendrogram, selecting k via the largest vertical gap.
 You can see the performance by clicking in the notebook **k_means_clustering.ipynb** here.
 
 ## Data
 - `Mall_Customers.csv` (gender, age, annual income, spending score)
 
 ## Methods
-- K-Means with `n_clusters=5` and 2D visualization
+- K-Means elbow with `n_clusters=5` and 2D visualization
 - SciPy dendrogram with `method="ward"` (choose `k` via the **largest vertical gap** rule)
 
 ## Run
