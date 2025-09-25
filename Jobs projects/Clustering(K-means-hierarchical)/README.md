@@ -13,7 +13,7 @@
 ```bash
 pip install numpy pandas matplotlib scipy scikit-learn
 jupyter lab k_means_clustering.ipynb
-
+```
 
 Notes
 
