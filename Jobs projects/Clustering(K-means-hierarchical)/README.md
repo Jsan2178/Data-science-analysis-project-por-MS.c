@@ -1,7 +1,7 @@
 # Customer Segmentation — K-Means & Hierarchical (Ward)
 
 **Summary:** Mini demo segmenting `Mall_Customers.csv` with **K-Means (k=5)** and **Agglomerative Hierarchical** (Ward linkage + dendrogram). Ward favors compact clusters; the dendrogram hints **k≈3**, but we also show **k=5** for finer, actionable segments.
-You can see the performance by clicking in the notebook k_means_clustering here.
+You can see the performance by clicking in the notebook **k_means_clustering.ipynb** here.
 
 ## Data
 - `Mall_Customers.csv` (gender, age, annual income, spending score)
