@@ -26,5 +26,9 @@ First to know:
   Semantic search over Amazon reviews with MiniLM embeddings; Q&A answers grounded in top-k evidence and aspect summary (price, battery, quality, durability).  
   *Metrics:* Recall@5 **0.84**, MRR@5 **0.61** (same-product proxy, exclude-self). *Tech:* Python, sentence-transformers, scikit-learn, pandas.
 
+- **[Customer Segmentation — K-Means + Hierarchical (Ward)](./Jobs%20projects/Clustering(K-means-hierarchical)/)
+  Mini segmentation on Mall_Customers.csv. Built K-Means (k=5) and Agglomerative (Ward + dendrogram); dendrogram suggests k≈3, we compare vs k=5 for finer, actionable segments.
+  Notes: discusses largest vertical gap rule, when to prefer Ward, and scaling guidance.
+  Tech: scikit-learn, SciPy, NumPy, Matplotlib, pandas, seaborn.
 
 *Contact:* santillanjordan9@gmail.com · LinkedIn: https://www.linkedin.com/in/<tu-handle>
