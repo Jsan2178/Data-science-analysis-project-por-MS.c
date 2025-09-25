@@ -28,7 +28,7 @@ First to know:
 
 - **[Customer Segmentation — K-Means + Hierarchical (Ward)](./Jobs%20projects/Clustering(K-means-hierarchical)/)**
 
-  Mini segmentation on Mall_Customers.csv. Built K-Means (k=5) and Agglomerative (Ward + dendrogram); dendrogram suggests k≈3, we compare vs k=5 for finer, actionable segments.
+  Mini segmentation on Mall_Customers.csv. Built K-Means elbow (inertia vs. k) and Ward dendrogram (largest vertical-gap rule). and Agglomerative (Ward + dendrogram); dendrogram suggests k≈3, we compare vs k=5 for finer, actionable segments.
   Notes: discusses largest vertical gap rule, when to prefer Ward, and scaling guidance.
   Tech: scikit-learn, SciPy, NumPy, Matplotlib, pandas, seaborn.
 
