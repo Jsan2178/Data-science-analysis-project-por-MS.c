@@ -19,7 +19,7 @@ First to know:
 - [Image Classification — CIFAR-10 (PyTorch)](./Jobs%20projects/CNN%20with%20pytorch/)
   CNN from scratch (2 conv blocks + dense head) with full training/evaluation pipeline.
   Test set: **Accuracy ≈ 63.6%** (baseline **57.8%**, **+5.8 pp**).  
-  *Eval*: per-class accuracy, confusion matrix, Recall, Precision, f1score; reproducible runs (seed=42) and saved `state_dict` for quick inference..  
+  *Eval*: per-class accuracy, confusion matrix, Recall, Precision, f1score; reproducible runs (seed=42) and saved `state_dict` for quick inference.
   *Tech*: PyTorch/torchvision, scikit-learn, Matplotlib.  (14 epochs, Adam lr=5e-4, batch=64)
 
 - **[Amazon Reviews — RAG-lite Q&A + Aspect Sentiment](https://github.com/Jsan2178/Data-science-analysis-project-por-MS.c/tree/master/Jobs%20projects/project%203%20git)**  
