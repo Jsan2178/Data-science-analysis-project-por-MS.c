@@ -36,7 +36,6 @@ First to know:
 
   Binary sentiment on restaurant reviews with classic NLP: regex clean → lowercase → stop-words (keep “not”) → Porter stem → CountVectorizer(1500); compare GaussianNB vs MultinomialNB (α search).
   Metrics: GaussianNB Acc 0.73; MultinomialNB Acc 0.79, cls-report (Yes P/R/F1 0.77/0.80/0.79, No 0.81/0.78/0.79).
-  
   Tech: Python, scikit-learn, NLTK, pandas, matplotlib, Jupyter.
 
 *Contact:* santillanjordan9@gmail.com · LinkedIn: https://www.linkedin.com/in/<tu-handle>
