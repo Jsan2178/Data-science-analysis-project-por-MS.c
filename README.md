@@ -19,24 +19,25 @@ First to know:
 - [Image Classification — CIFAR-10 (PyTorch)](./Jobs%20projects/CNN%20with%20pytorch/)
   CNN from scratch (2 conv blocks + dense head) with full training/evaluation pipeline.
   Test set: **Accuracy ≈ 63.6%** (baseline **57.8%**, **+5.8 pp**).  
-  Eval: per-class accuracy, confusion matrix, Recall, Precision, f1score; reproducible runs (seed=42) and saved `state_dict` for quick inference.  
-  Tech: PyTorch/torchvision, scikit-learn, Matplotlib.  (14 epochs, Adam lr=5e-4, batch=64)
+  *Eval*: per-class accuracy, confusion matrix, Recall, Precision, f1score; reproducible runs (seed=42) and saved `state_dict` for quick inference.  
+  *Tech*: PyTorch/torchvision, scikit-learn, Matplotlib.  (14 epochs, Adam lr=5e-4, batch=64)
 
 - **[Amazon Reviews — RAG-lite Q&A + Aspect Sentiment](https://github.com/Jsan2178/Data-science-analysis-project-por-MS.c/tree/master/Jobs%20projects/project%203%20git)**  
   Semantic search over Amazon reviews with MiniLM embeddings; Q&A answers grounded in top-k evidence and aspect summary (price, battery, quality, durability).  
-  *Metrics:* Recall@5 **0.84**, MRR@5 **0.61** (same-product proxy, exclude-self). *Tech:* Python, sentence-transformers, scikit-learn, pandas.
+  *Metrics:* Recall@5 **0.84**, MRR@5 **0.61** (same-product proxy, exclude-self).
+  *Tech:* Python, sentence-transformers, scikit-learn, pandas.
 
 - **[Customer Segmentation — K-Means + Hierarchical (Ward)](./Jobs%20projects/Clustering(K-means-hierarchical)/)**
 
   Mini segmentation on Mall_Customers.csv. Built K-Means elbow (inertia vs. k) and Ward dendrogram (largest vertical-gap rule). and Agglomerative (Ward + dendrogram); dendrogram suggests k≈3, we compare vs k=5
   for finer, actionable segments.
   Notes: discusses largest vertical gap rule, when to prefer Ward, and scaling guidance.
-  Tech: scikit-learn, SciPy, NumPy, Matplotlib, pandas, seaborn.
+  *Tech*: scikit-learn, SciPy, NumPy, Matplotlib, pandas, seaborn.
 
 - **[Restaurant Reviews — BoW + Naive Bayes Sentiment](./Jobs%20projects/NLP%20project/)**
 
   Binary sentiment on restaurant reviews with classic NLP: regex clean → lowercase → stop-words (keep “not”) → Porter stem → CountVectorizer(1500); compare GaussianNB vs MultinomialNB (α search).
-  Metrics: GaussianNB Acc 0.73; MultinomialNB Acc 0.79, cls-report (Yes P/R/F1 0.77/0.80/0.79, No 0.81/0.78/0.79).
-  Tech: Python, scikit-learn, NLTK, pandas, matplotlib, Jupyter.
+  *Metrics*: GaussianNB Acc 0.73; MultinomialNB Acc 0.79, cls-report (Yes P/R/F1 0.77/0.80/0.79, No 0.81/0.78/0.79).
+  *Tech*: Python, scikit-learn, NLTK, pandas, matplotlib, Jupyter.
 
 *Contact:* santillanjordan9@gmail.com · LinkedIn: https://www.linkedin.com/in/<tu-handle>
