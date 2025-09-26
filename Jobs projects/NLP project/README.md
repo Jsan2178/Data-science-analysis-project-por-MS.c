@@ -80,6 +80,7 @@ Ensure `Restaurant_Reviews.tsv` is in the repo root.
 - Simple random search over α ∈ [0.01, 10].  
 - **Best observed accuracy:** ≈ **0.79**  
 - Example confusion matrix recorded in notebook: `[[74, 23], [19, 84]]`
+  
 **Classification report**
   
 | class        | precision | recall | f1-score | support |
