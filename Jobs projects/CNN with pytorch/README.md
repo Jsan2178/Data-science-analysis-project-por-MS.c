@@ -31,16 +31,18 @@
 ## Improved setup
 
 **Architecture changes**
-- Kept the two conv blocks (same as baseline).
+- Conv2d(3→32, k=5) → ReLU → MaxPool(2)
+- Conv2d(32→64, k=3) → ReLU → MaxPool(2)
+- Flatten (64×6×6)
 - Expanded the dense head:
-  - Linear(16×5×5 → **128**) → ReLU  
+  - Linear(64×6×6 → **128**) → ReLU  
   - Linear(**128 → 128**) → ReLU  
   - Linear(**128 → 128**) → ReLU  
   - Linear(**128 → 10**) *(logits)*
 - Added `Dropout(p=0.2)` and `Dropout2d(p=0.2)` modules (declared; optional in the forward).
 
 **Training changes**
-- Optimizer: **Adam** (`torch.optim.Adam`)  
+- Optimizer: **Adam** (`torch.optim.Adam`) (weight_decay=1e-3)  
 - Learning rate: **5e-4**  
 - Weight decay: **1e-4**  
 - Batch size: **64**  
@@ -48,8 +50,8 @@
 - Reproducibility: set **seed=42** (Python, NumPy, PyTorch; cuDNN deterministic flags).
 
 **Result**
-- **Test accuracy:** **63.6%** (**+5.8 pp vs. baseline**)  
-- **Per-class accuracy:** plane 63.9, car 74.4, bird 46.6, cat 39.9, deer 60.2, dog 57.3, frog 69.8, horse 76.2, ship 76.2, truck 71.3 (%)
+- **Test accuracy:** **70.5%** (**+12.7 pp vs. baseline**)  
+- **Per-class accuracy:** plane 71.9, car 79.5, bird 64.3, cat 42.7, deer 74.1, dog 67.1, frog 79.0, horse 62.0, ship 87.9, truck 76.7 (%)
 
 ---
 
