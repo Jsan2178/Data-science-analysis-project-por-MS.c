@@ -17,10 +17,10 @@ First to know:
   At t=0.45 → Precision ≈ **0.48**, Recall ≈ **0.87**; ROI cutoff t*≈0.20 → Precision ≈ **0.39**, Recall ≈ **0.97**.
 
 - [Image Classification — CIFAR-10 (PyTorch)](./Jobs%20projects/CNN%20with%20pytorch/)
-  CNN from scratch (2 conv blocks + dense head) with full training/evaluation pipeline.
-  Test set: **Accuracy ≈ 63.6%** (baseline **57.8%**, **+5.8 pp**).  
+  CNN from scratch (2 conv blocks + pooling + dense head) with full training/evaluation pipeline.
+  Test set: **Accuracy ≈ 70.5%** (baseline **57.8%**, **+12.7 pp**).  
   *Eval*: per-class accuracy, confusion matrix, Recall, Precision, f1score; reproducible runs (seed=42) and saved `state_dict` for quick inference.
-  *Tech*: PyTorch/torchvision, scikit-learn, Matplotlib.  (14 epochs, Adam lr=5e-4, batch=64)
+  *Tech*: PyTorch/torchvision, scikit-learn, Matplotlib.  (14 epochs, Adam lr=5e-4, batch=64, weight_decay=1e-3)
 
 - **[Amazon Reviews — RAG-lite Q&A + Aspect Sentiment](https://github.com/Jsan2178/Data-science-analysis-project-por-MS.c/tree/master/Jobs%20projects/project%203%20git)**  
   Semantic search over Amazon reviews with MiniLM embeddings; Q&A answers grounded in top-k evidence and aspect summary (price, battery, quality, durability).  
