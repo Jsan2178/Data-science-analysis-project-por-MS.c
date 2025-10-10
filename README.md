@@ -40,4 +40,9 @@ First to know:
   *Metrics*: GaussianNB Acc 0.73; MultinomialNB Acc 0.79, cls-report (Yes P/R/F1 0.77/0.80/0.79, No 0.81/0.78/0.79).
   *Tech*: Python, scikit-learn, NLTK, pandas, matplotlib, Jupyter.
 
-*Contact:* santillanjordan9@gmail.com · LinkedIn: https://www.linkedin.com/in/<tu-handle>
+- **[SVM Grid Search — Binary Classification (scikit-learn)](./Jobs%20projects/GridSearch/)**
+  End-to-end SVM pipeline with scaling (Pipeline), train/test split, 10-fold CV and **GridSearchCV** over `C`, `kernel`, `gamma`; includes confusion matrix, decision-boundary plots, and saved model (`best_svm_pipeline.joblib`).
+  *Metrics:* Best CV Acc **…**, Test Acc **…**, ROC-AUC **…**, PR-AUC **…**.
+  *Tech:* Python, scikit-learn, NumPy, pandas, Matplotlib.
+
+*Contact:* santillanjordan9@gmail.com · LinkedIn: https://www.linkedin.com/in/jordan-daniel-santillan/
