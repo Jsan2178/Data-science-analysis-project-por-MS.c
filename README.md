@@ -45,4 +45,9 @@ First to know:
   *Metrics:* Best CV Acc **…**, Test Acc **…**, ROC-AUC **…**, PR-AUC **…**.
   *Tech:* Python, scikit-learn, NumPy, pandas, Matplotlib.
 
+- **[Breast Cancer Classification — XGBoost + Hyperparameter Search](./Jobs%20projects/XG-Boost/)**
+  End-to-end XGBoost binary classifier on Breast Cancer Wisconsin (Original): EDA, train/test split, 10-fold CV, GridSearchCV + RandomizedSearchCV, plus decision-threshold experiment (`predict_proba`).  
+  *Metrics:* Test Acc **97.81%** (CM `[[85,2],[1,49]]`); 10-fold CV Acc **97.25% ± 1.88%**; GridSearch best CV **97.62%**; RandomizedSearch best CV **97.26%**. *Tech:* Python, XGBoost, scikit-learn, pandas,
+  NumPy, Matplotlib, SciPy.
+  
 *Contact:* santillanjordan9@gmail.com · LinkedIn: https://www.linkedin.com/in/jordan-daniel-santillan/
