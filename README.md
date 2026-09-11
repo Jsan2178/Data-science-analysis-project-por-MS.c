@@ -1,5 +1,5 @@
 # Data-science-analysis-project-por-MS.c
-A [brief abstract and report](./Abstract_thesis_jordan_santillan.pdf) of my Master's degree thesis project in regression Neural Network application to particle physics.
+A [brief abstract and report](Abstract_thesis_september2026.pdf) of my Master's degree thesis project in regression Neural Network application to particle physics.
 This project aims to analyze and predict a physical phenomenon called muon g-2 based on a new theory knowed as Supersimmetry as an extension of the Standard Model of particles, which is part of my thesis, any information about it please contact me to santillanjordan9@gmail.com, so I can provide my thesis to you or doi articles related to it, also you can read and search for specific information in the following repository link where it has been published: [Predicciones por redes neuronales de la contribución de un modelo supersimétrico a la anomalía del muon](http://eprints.uanl.mx/31312/).
 First to know:
 1. The main archive is ["Thesis_code_main.ipynb"](./thesis_code_rep_j), which is built on jupyter lab but can be implemented in another python kernel obviously just the scripts, not the notes of the notebook.
